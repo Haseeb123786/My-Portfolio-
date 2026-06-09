@@ -1,4 +1,8 @@
 import Image from "next/image";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+
+import { FaXTwitter } from "react-icons/fa6";
+
 import Link from "next/link";
 import CursorGlow from "@/components/CursorGlow";
 
@@ -321,12 +325,49 @@ export default function Home() {
             Open to internships, collaborations and exciting projects.
           </p>
 
-          <div className="mt-12 space-y-4">
-            <p className="text-xl">📧 ha741183@gmail.com</p>
+          <div className="mt-12 flex justify-center gap-8 flex-wrap">
+            <a
+              href="mailto:ha741183@gmail.com"
+              className="p-5 rounded-2xl border border-white/10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(239,68,68,0.5)]"
+            >
+              <FaEnvelope size={32} />
+            </a>
 
-            <p>github.com/Haseeb123786</p>
+            <a
+              href="https://github.com/Haseeb123786"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-5 rounded-2xl border border-white/10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]"
+            >
+              <FaGithub size={32} />
+            </a>
 
-            <p>linkedin.com/in/haseeb-akbar-379b9a1aa</p>
+            <a
+              href="https://www.linkedin.com/in/haseeb-akbar-379b9a1aa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-5 rounded-2xl border border-white/10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(0,119,181,0.5)]"
+            >
+              <FaLinkedin size={32} />
+            </a>
+
+            <a
+              href="https://www.instagram.com/haseeb.syed72/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-5 rounded-2xl border border-white/10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(225,48,108,0.5)]"
+            >
+              <FaInstagram size={32} />
+            </a>
+
+            <a
+              href="https://x.com/Haseeb85008238"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-5 rounded-2xl border border-white/10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]"
+            >
+              <FaXTwitter size={32} />
+            </a>
           </div>
         </div>
       </section>
