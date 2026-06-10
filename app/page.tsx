@@ -76,16 +76,16 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="fixed top-5 left-1/2 -translate-x-1/2 z-50">
-        <div className="flex items-center gap-10 px-8 py-4 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)]">
+        <div className="flex items-center gap-4 md:gap-10 px-5 md:px-8 py-4 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)]">
           <a
             href="#about"
-            className={`${orbitron.className} font-bold text-xl tracking-[3px] transition-all duration-300 hover:text-white hover:[text-shadow:0_0_15px_white]`}
+            className={`${orbitron.className} font-bold text-lg md:text-xl tracking-[2px] md:tracking-[3px] transition-all duration-300 hover:text-white hover:[text-shadow:0_0_15px_white]`}
           >
             HASEEB<span className="text-red-500">.</span>
           </a>
 
           <div
-            className={`${spaceGrotesk.className} hidden md:flex gap-8 text-sm relative tracking-wide`}
+            className={`${spaceGrotesk.className} flex gap-4 md:gap-8 text-xs md:text-sm relative tracking-wide`}
           >
             <a
               href="#about"
