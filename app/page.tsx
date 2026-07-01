@@ -271,7 +271,7 @@ export default function Home() {
       {/* Projects */}
       <section id="projects" className="py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-12 lg:mb-16 text-center">
+          <h2 className="text-5xl font-bold mb-16 text-center lg:text-left">
             Featured <span className="text-red-500">Projects</span>
           </h2>
 
@@ -489,7 +489,7 @@ export default function Home() {
 
       {/* Contact */}
       <section id="contact" className="max-w-6xl mx-auto px-6 py-20 lg:py-32">
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-start">
           {/* Left Side */}
           <div>
             <h2 className="text-6xl font-bold text-center lg:text-left">
