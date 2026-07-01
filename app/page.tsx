@@ -255,7 +255,7 @@ export default function Home() {
             About <span className="text-red-500">Me</span>
           </h2>
 
-          <p className="text-zinc-400 text-lg leading-8 text-center lg:text-left">
+          <p className="text-zinc-400 text-lg leading-8 text-center max-w-4xl mx-auto">
             I am a B.Tech Computer Science Engineering student at ITS
             Engineering College, Greater Noida, currently entering my third
             year.
@@ -271,7 +271,7 @@ export default function Home() {
       {/* Projects */}
       <section id="projects" className="py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-16 text-center lg:text-left">
+          <h2 className="text-5xl font-bold mb-16 text-center">
             Featured <span className="text-red-500">Projects</span>
           </h2>
 
