@@ -241,7 +241,7 @@ export default function Home() {
                 width={450}
                 height={450}
                 priority
-                className="relative rounded-3xl border border-white/10 transition-all duration-500 hover:scale-105 hover:shadow-[0_0_100px_rgba(239,68,68,0.5)] cursor-pointer"
+                className="relative rounded-full lg:rounded-3xl border border-white/10 transition-all duration-500 hover:scale-105 hover:shadow-[0_0_100px_rgba(239,68,68,0.5)] cursor-pointer"
               />
             </Link>
           </div>
@@ -330,6 +330,27 @@ export default function Home() {
                   TFLite
                 </a>
               </div>
+              <div className="mt-8 flex justify-center">
+                <a
+                  href="https://github.com/Haseeb123786/Disha-Navigation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center
+    w-24 h-14 rounded-2xl
+    border border-white/15
+    bg-transparent
+    transition-all duration-300
+    hover:scale-105
+    hover:border-blue-500
+    hover:shadow-[0_0_10px_rgba(59,130,246,0.6),0_0_25px_rgba(59,130,246,0.45),0_0_45px_rgba(59,130,246,0.3)]"
+                >
+                  <FaGithub
+                    size={30}
+                    className="text-white transition-all duration-300
+      group-hover:text-blue-400"
+                  />
+                </a>
+              </div>
             </div>
 
             {/* Chess */}
@@ -374,6 +395,26 @@ export default function Home() {
                   className="bg-white/10 px-3 py-1 rounded-full transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.8)] hover:text-white"
                 >
                   Chess Engine
+                </a>
+              </div>
+              <div className="mt-8 flex justify-center">
+                <a
+                  href="https://github.com/Haseeb123786/Voice-Controlled-Chess"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center
+    w-24 h-14 rounded-2xl
+    border border-white/15
+    bg-transparent
+    transition-all duration-300
+    hover:scale-105
+    hover:border-blue-500
+    hover:shadow-[0_0_15px_rgba(59,130,246,0.8),0_0_35px_rgba(59,130,246,0.6),0_0_60px_rgba(59,130,246,0.4)]"
+                >
+                  <FaGithub
+                    size={30}
+                    className="text-white transition-all duration-300 group-hover:text-blue-400"
+                  />
                 </a>
               </div>
             </div>
