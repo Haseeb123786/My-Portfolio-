@@ -159,14 +159,14 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section className="min-h-screen flex items-center -mt-12">
+      <section className="min-h-screen flex items-center pt-8 lg:pt-0 -mt-6 lg:-mt-12">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-red-500 uppercase tracking-[4px] text-sm mb-6">
               Computer Science Enthusiast
             </p>
 
-            <h1 className="text-5xl lg:text-7xl font-bold leading-[0.95]">
+            <h1 className="text-5xl lg:text-7xl font-bold leading-[0.95] text-center lg:text-left">
               Syed
               <br />
               Mohammad
@@ -174,12 +174,12 @@ export default function Home() {
               <span className="text-red-500">Haseeb</span>
             </h1>
 
-            <p className="mt-8 text-zinc-400 text-lg max-w-xl">
+            <p className="mt-8 text-zinc-400 text-lg max-w-xl text-center lg:text-left mx-auto lg:mx-0">
               Building AI-powered solutions, web applications, and accessible
               technology that solve real-world problems.
             </p>
 
-            <div className="flex flex-wrap gap-4 mt-10">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-10">
               <Link
                 href="#projects"
                 className="bg-red-600 hover:bg-red-700 hover:shadow-[0_0_50px_rgba(239,68,68,0.8)] transition-all duration-300 px-6 py-3 rounded-full hover:scale-105"
@@ -208,7 +208,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 lg:mt-16">
               <div className="border border-white/10 p-4 rounded-xl">
                 <h3 className="text-2xl font-bold">2nd</h3>
                 <p className="text-zinc-500 text-sm">Hackathon Place</p>
@@ -249,13 +249,13 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-32">
+      <section id="about" className="py-20 lg:py-32">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-10">
+          <h2 className="text-5xl font-bold mb-10 text-center">
             About <span className="text-red-500">Me</span>
           </h2>
 
-          <p className="text-zinc-400 text-lg leading-8">
+          <p className="text-zinc-400 text-lg leading-8 text-center lg:text-left">
             I am a B.Tech Computer Science Engineering student at ITS
             Engineering College, Greater Noida, currently entering my third
             year.
@@ -269,9 +269,9 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="py-32">
+      <section id="projects" className="py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-16">
+          <h2 className="text-5xl font-bold mb-12 lg:mb-16 text-center">
             Featured <span className="text-red-500">Projects</span>
           </h2>
 
@@ -423,13 +423,13 @@ export default function Home() {
       </section>
 
       {/* Skills */}
-      <section id="skills" className="py-32">
+      <section id="skills" className="py-20 lg:py-32">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-4">
+          <h2 className="text-5xl font-bold mb-4 text-center">
             Skills & <span className="text-red-500">Technologies</span>
           </h2>
 
-          <p className="text-zinc-400 mb-12">
+          <p className="text-zinc-400 mb-12 text-center">
             Tools and technologies I work with.
           </p>
 
@@ -488,15 +488,15 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="max-w-6xl mx-auto px-6 py-32">
+      <section id="contact" className="max-w-6xl mx-auto px-6 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Left Side */}
           <div>
-            <h2 className="text-6xl font-bold">
+            <h2 className="text-6xl font-bold text-center lg:text-left">
               Let's <span className="text-red-500">Connect</span>
             </h2>
 
-            <p className="mt-6 text-zinc-400 text-lg">
+            <p className="mt-6 text-zinc-400 text-lg text-center lg:text-left">
               Open to internships, collaborations, hackathons and exciting
               software projects.
             </p>
@@ -555,13 +555,14 @@ export default function Home() {
                 required
                 className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-red-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(239,68,68,0.7)] focus:border-red-500 focus:shadow-[0_0_30px_rgba(239,68,68,0.5)] transition-all duration-300 outline-none resize-none"
               />
-
-              <button
-                type="submit"
-                className="px-8 py-4 bg-red-600 rounded-2xl hover:bg-red-700 hover:shadow-[0_0_40px_rgba(239,68,68,0.7)] transition-all duration-300 -mt-2"
-              >
-                Send Message
-              </button>
+              <div className="mt-8 flex justify-center lg:justify-start">
+                <button
+                  type="submit"
+                  className="px-8 py-4 bg-red-600 rounded-2xl hover:bg-red-700 hover:shadow-[0_0_40px_rgba(239,68,68,0.7)] transition-all duration-300 -mt-2"
+                >
+                  Send Message
+                </button>
+              </div>
             </form>
           </div>
         </div>
