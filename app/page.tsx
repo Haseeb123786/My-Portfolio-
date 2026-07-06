@@ -162,7 +162,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center pt-8 lg:pt-0 -mt-6 lg:-mt-12">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-red-500 uppercase tracking-[4px] text-sm mb-6">
+            <p className="text-red-500 uppercase tracking-[4px] text-sm mb-6 text-center lg:text-left">
               Computer Science Enthusiast
             </p>
 
